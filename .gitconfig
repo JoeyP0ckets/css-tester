@@ -3,7 +3,7 @@
 [gui]
 	recentrepo = C:/Users/omnid/github/css-tester
 [user]
-	email = 78045914+jtledbet@users.noreply.github.com
+	email = jtledbet@users.noreply.github.com
 	name = jtledbet
 [filter "lfs"]
 	clean = git-lfs clean -- %f
