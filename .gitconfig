@@ -1,0 +1,12 @@
+[alias]
+	hist = log --pretty=format:'%C(yellow)[%ad]%C(reset) %C(green)[%h]%C(reset) | %C(red)%s %C(bold red){{%an}}%C(reset) %C(blue)%d%C(reset)' --graph --date=short
+[gui]
+	recentrepo = C:/Users/omnid/github/css-tester
+[user]
+	email = 78045914+jtledbet@users.noreply.github.com
+	name = jtledbet
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
