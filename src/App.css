@@ -37,9 +37,8 @@
 }
 
 .nav-links {
-  float: right;
   padding-right: 70px;
   padding-top: 25px;
-  position: relative;
+  /* position: relative; */
   
 }
