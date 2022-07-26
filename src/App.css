@@ -5,10 +5,10 @@
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -18,16 +18,19 @@
 }
 
 .home-container {
-  background-image: url(https://wallpaperaccess.com/full/740142.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* display: flex; */
+  /* background-color: black; */
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .navbar-container {
   width: 100%;
   border-bottom: double black;
   background-color: lightgray;
+  padding-top: 2%;
+  padding-bottom: 5%;
 } 
 
 .main-nav {
@@ -39,8 +42,92 @@
 }
 
 .nav-links {
-  /* float: right; */
   padding-right: 70px;
   padding-top: 25px;
-  /* position: relative; */
+}
+
+.doc-nav-container {
+
+}
+
+.about-container {
+  background-image: url(https://wallpaperaccess.com/full/740142.jpg);
+  background-position: center;
+  background-repeat: space;
+  background-size: auto;
+  /* opacity: 0.6; */
+  height: fit-content;
+  min-height: 35vh;
+  padding-top: 10%;
+  text-align: center;
+  margin: 0px;
+}
+
+#about-text {
+
+}
+
+#about-header {
+
+}
+
+#about-statement {
+  /* padding: 25%; */
+  /* display: flex; */
+  /* max-width: 75%; */
+  margin: 50px;
+  text-shadow: #61dafb;
+  opacity: 1 !important;
+}
+
+.container {
+  /* padding: 15px; */
+  /* padding: 5%; */
+  /* margin: 10px; */
+  border: 2px #282c34;
+}
+
+.row {
+  align-items: center;
+}
+
+.column {
+  border: black;
+  border-width: 2px;
+  /* background-color: rgb(7, 83, 119); */
+  border-style: double;
+  border-left-style: hidden;
+  border-top-style: hidden;
+  border-bottom-style: hidden;
+  /* border-left: #282c34; */
+  /* padding: 10px; */
+  /* margin: 10px; */
+}
+
+#column-right {
+  border-right-style: hidden;
+}
+
+.textBox {
+  padding: 5%;
+  margin: 5%;
+}
+
+.contact-container {
+  /* margin: 50px; */
+  background-image: url(https://media.istockphoto.com/photos/smiling-black-female-doctor-in-white-coat-posing-with-folded-arms-picture-id1201657177?k=20&m=1201657177&s=612x612&w=0&h=TI-1JOqHQ_U-qMSO7NpWZB5hsFxMTjGEtoBucW_a-hk=);
+  padding-bottom: 1px;
+}
+
+#contact-text {
+
+}
+
+#contact-header {
+  padding-top: 3%;
+}
+
+#contact-info {
+  /* padding: 5%; */
+  margin: 5%;
 }
