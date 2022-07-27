@@ -40,15 +40,15 @@
 }
 
 .doc-nav-container {
-
+  justify-content: center;
 }
 
 .about-container {
   background-image: url(https://wallpaperaccess.com/full/740142.jpg);
   background-position: center;
   min-height: 25vh;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 18%;
+  padding-bottom: 12%;
   text-align: center;
   margin: 0px;
   display: flex;
@@ -66,7 +66,8 @@
   color: white;
 
   padding-bottom: 1%;
-  width: 200px;
+  width: 400px;
+  height: 175px;
 }
 
 #about-statement {
@@ -103,6 +104,8 @@
 
 .contact-container {
   background-image: url(https://media.istockphoto.com/photos/smiling-black-female-doctor-in-white-coat-posing-with-folded-arms-picture-id1201657177?k=20&m=1201657177&s=612x612&w=0&h=TI-1JOqHQ_U-qMSO7NpWZB5hsFxMTjGEtoBucW_a-hk=);
+  background-position: center;
+  background-repeat: no-repeat;
   padding-bottom: 1px;
   /* find higher resolution image */
 }
