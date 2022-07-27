@@ -14,6 +14,54 @@
   color: #61dafb;
 }
 
+/* --------Navbar--------- */
+
+.navbar-logo {
+  float: left;
+  font-family: 'Cinzel', serif;
+  padding-top: 5px;
+  padding-left: 80px;
+}
+
+.main-nav {
+  color: black;
+  font-family: "Cinzel";
+  margin-left: 70px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.main-nav:hover {
+  color: tomato !important;
+  opacity: 1;
+}
+
+
+.main-nav-active {
+  color: tomato;
+}
+
+.navbar-container {
+  width: 100%;
+  border-bottom: double black;
+  background-color: lightgray;
+} 
+
+.navbar-container::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.nav-links {
+  float: right;
+  padding-right: 70px;
+  padding-top: 25px;
+  position: relative;
+  
+}
+/* --------Home-------- */
+
 .home-container {
 
 }
