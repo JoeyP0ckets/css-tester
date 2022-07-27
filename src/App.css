@@ -174,7 +174,7 @@
 }
 
 #contact-text {
-  font-size: 1rem;
+  font-size: 1.25rem;
   color: white;
   align-items: left;
   text-align: left;
@@ -183,6 +183,7 @@
 
 #contact-info {
   margin: 5%;
+  padding-left: 5%;
   align-items: left;
   text-align: left;
   align-self: left;

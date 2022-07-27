@@ -42,7 +42,9 @@ const HomeContainer = () => {
         <div id="contact-text">
           <h1 id="contact-header">Contact Info</h1>
           <div id="contact-info">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Wellness Pharma<br>
+            </br>784 N. Tailwater Road<br>
+            </br>Norwich, CT 06360
           </div>
         </div>
       </Container>
