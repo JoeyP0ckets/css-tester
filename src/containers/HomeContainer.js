@@ -17,9 +17,9 @@ const HomeContainer = () => {
         <h1>Greetings, Doctor!</h1>
       </Row>
 
-      <Container className="doc-nav-container">
-        <Row style={{ display: "flex" }}>
-          <Col className="column" xs={2}><h2>First Doses</h2>
+      <Container fluid className="doc-nav-container">
+        <Row style={{ display: "flex"}}>
+          <Col className="column" id="column-left" xs={2}><h2>First Doses</h2>
             <div class="textBox">
               Browse and order from our selection of anti-bronchial First Doses.
             </div>
