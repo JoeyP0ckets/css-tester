@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from 'react-bootstrap'
+import { NavLink} from "react-router-dom"
 
 const HomeContainer = () => {
   return (
@@ -23,11 +24,13 @@ const HomeContainer = () => {
             <div class="textBox">
               Browse and order from our selection of anti-bronchial First Doses.
             </div>
+            <NavLink exact to="/FirstDoses">First Doses</NavLink>
           </Col>
           <Col className="column" id="column-right" xs={2}><h2>Your Doses</h2>
             <div class="textBox">
-              Track the status of your order from signing to delivery.
+              Track the status of your order from signing to delivery. 
             </div>
+            <NavLink exact to="/YourDoses">Your Doses</NavLink>
           </Col>
         </Row>
       </Container>
