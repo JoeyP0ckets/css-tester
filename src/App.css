@@ -49,14 +49,17 @@
   min-height: 25vh;
   padding-top: 18%;
   padding-bottom: 12%;
+  padding-right: 12%;
   text-align: center;
   margin: 0px;
   display: flex;
-  justify-content: center;
+  justify-content: right;
 }
 
 #about-header {
-
+  font-size: 2.4rem;
+  text-shadow: #282c34;
+  text-decoration: solid;
 }
 
 #about-text {
@@ -65,15 +68,20 @@
   /* color: cornflowerblue; */
   color: white;
   opacity: 85%;
-  padding-bottom: 1%;
+  padding: 3%;
+  padding-bottom: 8%;
   width: 400px;
   height: 175px;
+  font-style: italic;
+  text-shadow: #282c34;
+  text-decoration: solid;
 }
 
 #about-statement {
   margin: 50px;
-  text-shadow: #61dafb;
-  opacity: 1 !important;
+  text-shadow: #b61c07;
+  color: #CCCCCC;
+  font-size: 1.75rem;
 }
 
 .container {
