@@ -169,7 +169,7 @@
 
 #contact-header {
   padding-top: 3%;
-  padding-left: 3%;
+  padding-left: 10%;
   font-size: 2.5rem;
 }
 
@@ -182,8 +182,8 @@
 }
 
 #contact-info {
-  margin: 5%;
-  padding-left: 5%;
+  /* margin: 5%; */
+  padding-left: 10%;
   align-items: left;
   text-align: left;
   align-self: left;
