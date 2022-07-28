@@ -198,26 +198,35 @@
   background-size: contain;
   border: #282c34;
   border-style: inset;
-  border-width: 10px;
+  border-width: 5px;
   background-color: gray;
+  color: white;
   height: fit-content;
   max-height: 75%;
   margin: 1%;
   margin-left: 25%;
   margin-right: 25%;
-  width: 50%;
+  min-height: 575px;
+  max-width: 50%;
+  font-size: larger;
+}
+
+#please_select {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-large;
+  padding-top: 33%;
 }
 
 #selected_sample_image {
-  max-width: 85%;
-  max-height: 300px;
+  max-width: 95%;
+  max-height: 350px;
 }
 
 .samples-container {
   display: flex;
   border: #282c34;
   border-style: outset;
-  border-width: 10px;
+  border-width: 5px;
   /* background-color: gray; */
   align-items: center;
   justify-content: space-around;
@@ -253,4 +262,5 @@
 
 .btn {
   margin-bottom: 15px;
+  font-size: large;
 }
