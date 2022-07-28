@@ -188,3 +188,28 @@
   text-align: left;
   align-self: left;
 }
+
+/* --------First Doses Page--------- */
+
+.sample-view-container {
+  border: #282c34;
+  border-style: outset;
+  border-width: 10px;
+  background-color: gray;
+  height: 200px;
+  margin-bottom: 1%;
+}
+
+.samples-container {
+  display: flex;
+  border: #282c34;
+  border-style: outset;
+  border-width: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-img-top {
+  width: 350px;
+  padding: 10px;
+}
