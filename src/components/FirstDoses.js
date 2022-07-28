@@ -27,7 +27,7 @@ const FirstDoses = () => {
     <div className="first-doses-page">
       <div className="sample-view-container">
 
-        {selectedSample ? <SampleView selectedSample={selectedSample}/> : "I don't have a selected sample"}
+        {selectedSample ? <SampleView selectedSample={selectedSample}/> : <h3 id="please_select">Please select a medication below.</h3>}
 
       </div>
       <div className="samples-container">
