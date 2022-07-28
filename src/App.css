@@ -192,6 +192,9 @@
 /* --------First Doses Page--------- */
 
 .sample-view-container {
+  background-image: url(https://www.grxstatic.com/d4fuqqd5l3dbz/products/Package_20191.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
   border: #282c34;
   border-style: outset;
   border-width: 10px;
@@ -217,4 +220,12 @@
 .card-img-top {
   width: 350px;
   padding: 10px;
+}
+
+.card-title {
+  font-size: x-large;
+}
+
+.card-text {
+  font-style: italic;
 }
