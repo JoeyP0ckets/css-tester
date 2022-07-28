@@ -1,7 +1,9 @@
 import React from 'react'
 import {Card, Button} from 'react-bootstrap'
+import {useState} from 'react'
 
 const SampleCard = (props) => {
+  
 
   return(
     <Card style={{ width: '30rem' }}>
@@ -11,7 +13,7 @@ const SampleCard = (props) => {
       <Card.Text style={{fontFamily: "Cinzel"}}>
         Click for details and ordering
       </Card.Text>
-      {/* <Button variant="primary" onClick={() => sampleClick(props.sample)}>Place Order</Button> */}
+      <Button variant="primary" onClick={() => props.handleClick(props.sample)}>View Details</Button>
     </Card.Body>
   </Card>
   ) 

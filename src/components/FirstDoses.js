@@ -1,9 +1,16 @@
-import React from 'react' 
+import {React, useState} from 'react' 
 import { getAllSamples } from '../DataGrabber'
 import SampleCard from './SampleCard'
+import SampleView from '../containers/SampleView'
 
 const FirstDoses = () => {
-  
+
+  const [selectedSample, setSelectedSample] = useState(null);
+
+  const handleClick = (sample) => {
+    setSelectedSample(sample)
+  }
+
   const renderAllSamples = () => {
     let sampleArray = getAllSamples();
     
@@ -11,6 +18,7 @@ const FirstDoses = () => {
       <SampleCard
         key={index}
         sample={sample}
+        handleClick={handleClick}
       />
     )
   }
@@ -18,6 +26,8 @@ const FirstDoses = () => {
   return(
     <div className="first-doses-page">
       <div className="sample-view-container">
+
+        {selectedSample ? <SampleView selectedSample={selectedSample}/> : "I don't have a selected sample"}
 
       </div>
       <div className="samples-container">
