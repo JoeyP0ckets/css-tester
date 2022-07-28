@@ -195,6 +195,7 @@
   background-image: url(https://www.grxstatic.com/d4fuqqd5l3dbz/products/Package_20191.JPG);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: contain;
   border: #282c34;
   border-style: outset;
   border-width: 10px;
@@ -203,6 +204,7 @@
   margin: 1%;
   margin-left: 25%;
   margin-right: 25%;
+  width: 50%;
 }
 
 .samples-container {
@@ -215,10 +217,11 @@
   margin: 1%;
   margin-left: 5%;
   margin-right: 5%;
+  width: 90%;
 }
 
 .card-img-top {
-  width: 85%;
+  width: 90%;
   padding: 10px;
 }
 
