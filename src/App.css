@@ -218,7 +218,7 @@
   border: #282c34;
   border-style: outset;
   border-width: 10px;
-  background-color: gray;
+  /* background-color: gray; */
   align-items: center;
   justify-content: space-around;
   margin: 1%;
