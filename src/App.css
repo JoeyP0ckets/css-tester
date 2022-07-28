@@ -239,8 +239,8 @@
   border-width: 2px;
   width: 85%;
   padding: 5px;
-  max-height: 200px;
-  min-height: 200px;
+  /* max-height: 200px; */
+  /* min-height: 200px; */
 }
 
 .card-title {
