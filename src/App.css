@@ -224,10 +224,6 @@
 
 .samples-container {
   display: flex;
-  border: #282c34;
-  border-style: outset;
-  border-width: 5px;
-  /* background-color: gray; */
   align-items: center;
   justify-content: space-around;
   margin: 1%;
