@@ -19,7 +19,6 @@ const Navbar = () => {
                 <NavLink exact to="/" className="main-nav" activeClassName="main-nav-active">Home</NavLink>
                 <NavLink exact to="/FirstDoses" className="main-nav" activeClassName="main-nav-active">First Doses</NavLink>
                 <NavLink exact to="/YourDoses" className="main-nav" activeClassName="main-nav-active">Your Doses</NavLink>
-                
               </div>
           </div>
 
