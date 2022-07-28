@@ -18,7 +18,7 @@ const FirstDoses = () => {
   return(
     <div className="first-doses-page">
       <div className="sample-view-container">
-        I'm the sample view container
+
       </div>
       <div className="samples-container">
         {renderAllSamples()}
