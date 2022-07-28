@@ -7,7 +7,7 @@ const SampleView = (props) => {
   return(
     <div>
       <h1 style={{paddingTop: "20px", color: "whitesmoke", fontFamily: "Cinzel", fontWeight: "bold"}}>{sample_name}</h1>
-      <img src={image_url} alt={sample_name}/>
+      <img id="selected_sample_image" src={image_url} alt={sample_name}/>
       <div className="sample-info-container">
         <h4 style={{fontFamily: "Cinzel"}}>{description}</h4>
         <h4 style={{fontFamily: "Cinzel"}}>Sample Size: {sample_size}</h4>

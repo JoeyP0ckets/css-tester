@@ -11,7 +11,6 @@ const SampleCard = (props) => {
     <Card.Body>
       <Card.Title style={{fontFamily: "Cinzel", fontWeight: "bold"}}>{props.sample.sample_name}</Card.Title>
       <Card.Text style={{fontFamily: "Cinzel"}}>
-        Click for details and ordering
       </Card.Text>
       <Button variant="primary" onClick={() => props.handleClick(props.sample)}>View Details</Button>
     </Card.Body>
