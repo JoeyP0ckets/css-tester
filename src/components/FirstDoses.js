@@ -26,7 +26,9 @@ const FirstDoses = () => {
   return(
     <div className="first-doses-page">
       <div className="sample-view-container">
+
         {selectedSample ? <SampleView selectedSample={selectedSample}/> : "I don't have a selected sample"}
+
       </div>
       <div className="samples-container">
         {renderAllSamples()}

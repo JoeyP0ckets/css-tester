@@ -192,12 +192,19 @@
 /* --------First Doses Page--------- */
 
 .sample-view-container {
+  background-image: url(https://www.grxstatic.com/d4fuqqd5l3dbz/products/Package_20191.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
   border: #282c34;
-  border-style: outset;
+  border-style: inset;
   border-width: 10px;
   background-color: gray;
-  height: 200px;
-  margin-bottom: 1%;
+  height: 450px;
+  margin: 1%;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
 }
 
 .samples-container {
@@ -205,11 +212,32 @@
   border: #282c34;
   border-style: outset;
   border-width: 10px;
+  background-color: gray;
   align-items: center;
   justify-content: space-around;
+  margin: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+}
+
+.card {
+  background-color: white;
 }
 
 .card-img-top {
-  width: 350px;
-  padding: 10px;
+  margin: 15px;
+  border: #282c34;
+  border-style: dashed;
+  border-width: 2px;
+  width: 85%;
+  padding: 5px;
+}
+
+.card-title {
+  font-size: x-large;
+}
+
+.card-text {
+  font-style: italic;
 }
