@@ -1,9 +1,23 @@
 import React from 'react' 
+import { getAllSamples } from '../DataGrabber'
+import SampleCard from './SampleCard'
 
 const FirstDoses = () => {
+  
+  const renderAllSamples = () => {
+    let sampleArray = getAllSamples();
+    
+    return sampleArray.map((sample, index) =>
+      <SampleCard
+        key={index}
+        sample={sample}
+      />
+    )
+  }
+  
   return(
     <div className="first-doses-page">
-      I'm the first Doses Page
+      {renderAllSamples()}
     </div>
   )
 }
