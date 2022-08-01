@@ -47,7 +47,7 @@
   width: 100%;
   border-bottom: double black;
   background-color: lightgray;
-} 
+}
 
 .navbar-container::after {
   content: '';
@@ -74,7 +74,7 @@
   background-color: lightgray;
   padding-top: 2%;
   padding-bottom: 5%;
-} 
+}
 
 .main-nav {
   color: black;
@@ -196,9 +196,9 @@
 }
 
 .sample-view-container {
-  background: rgb(7,7,8);
-  background: radial-gradient(circle, rgba(7, 7, 8, 0.63) 0%, rgba(97,97,97,0.7791491596638656) 48%, rgba(9, 9, 9, 0.762) 100%);
-  
+  background: rgb(7, 7, 8);
+  background: radial-gradient(circle, rgba(7, 7, 8, 0.63) 0%, rgba(97, 97, 97, 0.7791491596638656) 48%, rgba(9, 9, 9, 0.762) 100%);
+
   /* background-image: url(https://www.grxstatic.com/d4fuqqd5l3dbz/products/Package_20191.JPG);
   background-position: center;
   background-repeat: no-repeat;
@@ -223,8 +223,8 @@
 }
 
 #theatre {
-  background: rgb(245,245,245);
-  background: radial-gradient(circle, rgba(245,245,245,1) 0%, rgba(11,59,112,0.68531162464986) 25%, rgba(0,0,128,1) 85%);
+  background: rgb(245, 245, 245);
+  background: radial-gradient(circle, rgba(245, 245, 245, 1) 0%, rgba(11, 59, 112, 0.68531162464986) 25%, rgba(0, 0, 128, 1) 85%);
   border: gray;
   border-style: groove;
   border-width: 1px;
@@ -242,9 +242,7 @@
   margin: 10px;
 }
 
-#sample-view-window {
-
-}
+#sample-view-window {}
 
 #selected_sample_image {
   min-height: 320px;
@@ -258,36 +256,48 @@
   padding-left: 50px;
   padding-right: 50px;
 
-  /* border: 3px solid black;
-  border-radius: 5px; */
-  height: 175px;
+  text-align: center;
+}
+
+#scroll-container {
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  height: 100px;
   overflow: hidden;
 }
 
 #scroll-text {
-  height: 100%;
-  text-align: center;
-  
   /* animation properties */
   -moz-transform: translateY(100%);
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
-  
-  -moz-animation: my-animation 5s linear infinite;
-  -webkit-animation: my-animation 5s linear infinite;
-  animation: my-animation 5s linear infinite;
-}
 
-/* for Firefox */
-@-moz-keyframes my-animation {
-  from { -moz-transform: translateY(100%); }
-  to { -moz-transform: translateY(-100%); }
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 15s linear infinite;
+
+
+  /* for Firefox */
+  @-moz-keyframes my-animation {
+    from {
+      -moz-transform: translateY(100%);
+    }
+
+    to {
+      -moz-transform: translateY(-100%);
+    }
+  }
 }
 
 /* for Chrome */
 @-webkit-keyframes my-animation {
-  from { -webkit-transform: translateY(100%); }
-  to { -webkit-transform: translateY(-100%); }
+  from {
+    -webkit-transform: translateY(100%);
+  }
+
+  to {
+    -webkit-transform: translateY(-100%);
+  }
 }
 
 @keyframes my-animation {
@@ -296,6 +306,7 @@
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
   }
+
   to {
     -moz-transform: translateY(-100%);
     -webkit-transform: translateY(-100%);
@@ -312,17 +323,15 @@
 }
 
 .card {
-  background-color: rgba(2,0,36,1) white;
+  background-color: rgba(2, 0, 36, 1) white;
   margin: 10px;
   padding: 10px;
   min-height: 220px;
-  max-height: 280px;
+  /* max-height: 280px; */
   margin: auto;
 }
 
-.card-img-top {
-
-}
+.card-img-top {}
 
 .card-body {
   height: fit-content;
