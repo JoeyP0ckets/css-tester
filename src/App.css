@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Pacifico&display=swap');
 
-
 .App {
   text-align: center;
 }
@@ -35,13 +34,13 @@
 }
 
 .main-nav:hover {
-  color: tomato !important;
+  color: navy !important;
   opacity: 1;
+  /* font-weight: bold; */
 }
 
-
 .main-nav-active {
-  color: tomato;
+  color: navy;
 }
 
 .navbar-container {
@@ -61,8 +60,8 @@
   padding-right: 70px;
   padding-top: 25px;
   position: relative;
-  
 }
+
 /* --------Home-------- */
 
 .home-container {
@@ -115,7 +114,8 @@
 
 #about-text {
   background-color: #282c34;
-  background-color: rgb(0, 57, 163);
+  /* background-color: rgb(0, 57, 163); */
+  background-color: navy;
   color: white;
   opacity: 85%;
   padding: 3%;
@@ -157,7 +157,7 @@
 .textBox {
   padding: 5%;
   margin: 5%;
-  color: blue;
+  color: navy;
 }
 
 .contact-container {
@@ -194,24 +194,45 @@
 
 /* --------First Doses Page--------- */
 
+.first-doses-page {
+  background: white;
+}
+
 .sample-view-container {
+  background: rgb(7,7,8);
+  background: radial-gradient(circle, rgba(7, 7, 8, 0.63) 0%, rgba(97,97,97,0.7791491596638656) 48%, rgba(9, 9, 9, 0.762) 100%);
+  
   /* background-image: url(https://www.grxstatic.com/d4fuqqd5l3dbz/products/Package_20191.JPG); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   border: #282c34;
   border-style: inset;
-  border-width: 5px;
+  border-width: 1px;
   background-color: gray;
   color: white;
   height: fit-content;
   max-height: 75%;
-  margin: 1%;
   margin-left: 25%;
   margin-right: 25%;
-  min-height: 575px;
+  min-height: 350px;
   max-width: 50%;
   font-size: larger;
+  justify-content: center;
+}
+
+#theatre {
+  background: rgb(245,245,245);
+  background: radial-gradient(circle, rgba(245,245,245,1) 0%, rgba(11,59,112,0.68531162464986) 25%, rgba(0,0,128,1) 85%);
+  border: gray;
+  border-style: groove;
+  border-width: 1px;
+  justify-self: center;
+  max-height: inherit;
+  max-width: inherit;
+  margin: auto;
+  padding: 25px;
+  width: 75%;
 }
 
 #please_select {
@@ -221,23 +242,22 @@
 }
 
 #selected_sample_image {
-  max-width: 95%;
-  max-height: 350px;
+  max-width: 90%;
+  margin: 10px;
+  padding: 10px;
 }
 
 .samples-container {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin: 1%;
-  margin-left: 5%;
-  margin-right: 5%;
-  width: 90%;
+  max-width: 75%;
+  margin: auto;
 }
 
 .card {
-  background-color: white;
-  /* margin: 1%; */
+  background-color: rgba(2,0,36,1) white;
+  padding: 10px;
 }
 
 .card-img-top {
@@ -247,8 +267,6 @@
   border-width: 2px;
   width: 85%;
   padding: 5px;
-  /* max-height: 200px; */
-  /* min-height: 200px; */
 }
 
 .card-title {
