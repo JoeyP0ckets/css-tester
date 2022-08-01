@@ -32,13 +32,14 @@
 }
 
 .main-nav:hover {
-  color: tomato !important;
+  color: navy !important;
   opacity: 1;
+  font-weight: bold;
 }
 
 
 .main-nav-active {
-  color: tomato;
+  color: navy;
 }
 
 .navbar-container {
