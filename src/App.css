@@ -211,7 +211,7 @@
   color: white;
   height: fit-content;
   max-height: 75%;
-  min-height: 350px;
+  min-height: 500px;
   margin: 25px;
   margin-left: 10%;
   margin-right: 10%;
@@ -238,7 +238,7 @@
 #please_select {
   font-family: 'Courier New', Courier, monospace;
   font-size: x-large;
-  padding-top: 33%;
+  padding-top: 200px;
   margin: 10px;
 }
 
@@ -329,6 +329,7 @@
   min-height: 220px;
   /* max-height: 280px; */
   margin: auto;
+  max-width: 33%;
 }
 
 .card-img-top {}
