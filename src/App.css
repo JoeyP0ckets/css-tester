@@ -19,8 +19,9 @@
 /* --------Navbar--------- */
 
 .navbar-logo {
+  background-image: url(https://www.pngfind.com/pngs/m/685-6854994_react-logo-no-background-hd-png-download.png);
+  background-position: center;
   float: left;
-  font-family: 'Cinzel', serif;
   padding-top: 5px;
   padding-left: 80px;
 }

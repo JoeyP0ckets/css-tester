@@ -14,7 +14,7 @@ const Navbar = () => {
     <div>
       <Router>
           <div className="navbar-container">
-            <h1 className="navbar-logo">First Dose Fulfillment</h1>
+            <div className="navbar-logo"></div>
               <div className="nav-links">
                 <NavLink exact to="/" className="main-nav" activeClassName="main-nav-active">Home</NavLink>
                 <NavLink exact to="/FirstDoses" className="main-nav" activeClassName="main-nav-active">First Doses</NavLink>
