@@ -36,14 +36,13 @@
 }
 
 .main-nav {
-  /* color: black; */
   color: black;
   font-family: "Cinzel";
-  /* font-weight: bold; */
+  font-size: 1.3rem;
   margin-left: 70px;
-  text-transform: uppercase;
   text-decoration: none;
-  opacity: 1;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 1px navy;
 }
 
 .main-nav:hover {
@@ -63,7 +62,6 @@
 
 
 .navbar-container {
-  width: 100%;
   border-bottom: double black;
   background-color: lightgray;
   background-position: center;
@@ -125,10 +123,6 @@
   text-decoration: none;
 }
 
-.main-nav a:active {
-  font-weight: bold;
-}
-
 .nav-links {
   padding-right: 70px;
   padding-top: 25px;
@@ -152,7 +146,7 @@
 
 #about-header {
   font-size: 2.4rem;
-  text-shadow: #282c34;
+  text-shadow: 1px 1px 8px #CCCCCC;
   text-decoration: solid;
   padding-top: 20px;
 }
@@ -164,7 +158,7 @@
   opacity: 85%;
   width: 400px;
   font-style: italic;
-  text-shadow: #282c34;
+  text-shadow: 1px 1px 8px #CCCCCC;
   text-decoration: solid;
 }
 
