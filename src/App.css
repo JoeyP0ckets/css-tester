@@ -20,10 +20,19 @@
 
 .navbar-logo {
   background-image: url(https://www.pngfind.com/pngs/m/685-6854994_react-logo-no-background-hd-png-download.png);
+  /* background-image: url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-svg-vector.svg); */
   background-position: center;
+  background-size: contain;
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
   float: left;
-  padding-top: 5px;
-  padding-left: 80px;
+  margin-left: 10px;
+}
+
+.navbar-logo img {
+  width: 25px;
+  height: 25px;
 }
 
 .main-nav {
