@@ -19,8 +19,10 @@
 /* --------Navbar--------- */
 
 .navbar-logo {
-  background-image: url(https://www.pngfind.com/pngs/m/685-6854994_react-logo-no-background-hd-png-download.png);
+  background-image: url("../src/img/first_dose_WHITE_periodic_final2.png");
+  /* background-image: url(https://www.pngfind.com/pngs/m/685-6854994_react-logo-no-background-hd-png-download.png); */
   /* background-image: url(https://thumbs.gfycat.com/TidyLimitedDragon-max-1mb.gif); */
+ 
   background-position: center;
   background-size: contain;
   width: 75px;
