@@ -14,7 +14,7 @@ const HomeContainer = () => {
         </div>
       </Container>
 
-      <Row style={{ textAlign: "center" }}>
+      <Row style={{ textAlign: "center", paddingTop: "10px" }}>
         <h1>Greetings, Doctor!</h1>
       </Row>
 
