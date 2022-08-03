@@ -8,6 +8,10 @@ const YourDoses = () => {
     let yourDoses = getYourDoses();
 
   return(
+  <div className="your-doses-page">
+    <div className="yourdose-explain-container">
+      I explain the contract table below
+    </div>
     <Table striped bordered hover variant="dark">
       <thead>
         <tr>
@@ -30,7 +34,14 @@ const YourDoses = () => {
         } 
       </tbody>
     </Table>
+    <div className="shipping-explain-container">
+      I explain the shipping data below
+    </div>
+    <div className="shipping-info-data">
+          I'm however we decide to set up the data for shipping
+      </div>
+    </div>
   )
 }
 
-export default (YourDoses)
+export default YourDoses;
