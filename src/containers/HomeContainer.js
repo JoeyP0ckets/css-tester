@@ -4,8 +4,8 @@ import { NavLink} from "react-router-dom"
 
 const HomeContainer = () => {
   return (
-    <Container className="home-container">
-      <Container className="about-container">
+    <Container className="home-container container-fluid">
+      <Container className="about-container container-fluid">
         <div id="about-text">
           <h1 id="about-header">First Dose Fulfillment</h1>
           <div id="about-statement">
