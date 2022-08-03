@@ -10,7 +10,7 @@ const YourDoses = () => {
   return (
     <div className="your-doses-page">
       <div className="yourdose-explain-container">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu bibendum at varius vel pharetra. Venenatis tellus in metus vulputate eu scelerisque felis. Et tortor at risus viverra adipiscing at. Eget mi proin sed libero enim sed faucibus turpis. Tellus elementum sagittis vitae et leo duis. Nunc vel risus commodo viverra. Sapien eget mi proin sed libero. Ipsum nunc aliquet bibendum enim. Amet nisl purus in mollis nunc sed id semper risus. Morbi tristique senectus et netus. Sem viverra aliquet eget sit amet tellus cras adipiscing.
+        CHECK the status of your contract.  First Dose Fulfillment uses Hellosign to easily send contracts right to your email.  Once you sign, your first dose is on the way.  Keep track with the table below.
       </div>
       <Table striped bordered hover variant="dark" id="contract-table">
         <thead>
@@ -35,7 +35,7 @@ const YourDoses = () => {
         </tbody>
       </Table>
       <div className="shipping-explain-container">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu bibendum at varius vel pharetra. Venenatis tellus in metus vulputate eu scelerisque felis. Et tortor at risus viverra adipiscing at. Eget mi proin sed libero enim sed faucibus turpis. Tellus elementum sagittis vitae et leo duis. Nunc vel risus commodo viverra. Sapien eget mi proin sed libero. Ipsum nunc aliquet bibendum enim. Amet nisl purus in mollis nunc sed id semper risus. Morbi tristique senectus et netus. Sem viverra aliquet eget sit amet tellus cras adipiscing.
+        TRACK your First Dose order.  First Dose uses ShipStation to provide up-to-date information on your current orders. Click on an order below to see its status.
       </div>
       <Table striped bordered hover variant="dark" id="shipping-table">
         <thead>
