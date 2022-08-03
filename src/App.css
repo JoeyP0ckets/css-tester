@@ -20,8 +20,6 @@
 
 .navbar-logo {
   background-image: url("../src/img/first_dose_WHITE_periodic_final2.png");
-  /* background-image: url(https://www.pngfind.com/pngs/m/685-6854994_react-logo-no-background-hd-png-download.png); */
-  /* background-image: url(https://thumbs.gfycat.com/TidyLimitedDragon-max-1mb.gif); */
  
   background-position: center;
   background-size: contain;
@@ -118,7 +116,6 @@
 }
 
 .main-nav {
-  /* color: black; */
   font-family: "Cinzel";
   margin-left: 70px;
   text-transform: uppercase;
@@ -140,7 +137,8 @@
   min-height: 25vh;
   padding-top: 18%;
   padding-bottom: 15%;
-  padding-right: 12%;
+  padding-right: 20%;
+  margin-right: 10%;
   text-align: center;
   display: flex;
   justify-content: right;
@@ -148,20 +146,21 @@
 
 #about-header {
   font-size: 2.4rem;
-  text-shadow: 1px 1px 8px #CCCCCC;
+  /* text-shadow: 1px 1px 8px #CCCCCC; */
   text-decoration: solid;
   padding-top: 20px;
 }
 
 #about-text {
-  background-color: #282c34;
-  background-color: rgba(0, 0, 128, 85%);
+  background-color: rgb(4, 0, 53);
+  background: radial-gradient(circle, rgb(2, 0, 65) 0%, rgba(11, 59, 112, 0.68531162464986) 25%,rgb(4, 0, 53) 85%);
   color: white;
   opacity: 85%;
   width: 400px;
   font-style: italic;
-  text-shadow: 1px 1px 8px #CCCCCC;
+  /* text-shadow: 1px 1px 8px #CCCCCC; */
   text-decoration: solid;
+  margin-right: 6%;
 }
 
 #about-statement {
@@ -264,7 +263,7 @@
 
 #theatre {
   background: rgb(245, 245, 245);
-  background: radial-gradient(circle, rgba(245, 245, 245, 1) 0%, rgba(11, 59, 112, 0.68531162464986) 25%, rgba(0, 0, 128, 1) 85%);
+  background: radial-gradient(circle, rgba(245, 245, 245, 1) 0%, rgba(11, 59, 112, 0.68531162464986) 25%,rgb(4, 0, 53) 85%);
   border: gray;
   border-style: groove;
   border-width: 1px;
@@ -292,8 +291,6 @@
 #sample-view-window {}
 
 #selected_sample_image {
-  min-height: 320px;
-  max-height: 320px;
   max-width: 50%;
   margin: 10px;
   padding: 10px;
@@ -393,7 +390,12 @@
   font-style: italic;
 }
 
-.btn {
+.btn-primary {
   margin-bottom: 15px;
   font-size: large;
+  background-color: rgb(4, 0, 53) !important;
+}
+
+.btn-primary:hover {
+  background-color: rgb(8, 0, 99) !important;
 }
