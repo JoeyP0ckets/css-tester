@@ -241,7 +241,7 @@
   height: fit-content;
   max-height: 75%;
   /* max-height: 700px; */
-  min-height: 500px;
+  min-height: 600px;
   margin: 25px;
   margin-left: 25%;
   margin-right: 25%;
@@ -271,7 +271,7 @@
   font-family: 'Courier New', Courier, monospace;
   font-size: x-large;
   padding-top: 300px;
-  margin: 100px;
+  margin: 145px;
 
   background-image: url("../src/img/first_dose_WHITE_periodic_final2.png");
  
@@ -482,16 +482,20 @@
   margin-top: -10px;
   
   float: left;
-  /* text-transform: uppercase; */
-  /* font-size: x-large; */
-  /* font-weight: bold; */
   font-size: 55px;
   font-weight: 300;
 }
 
+#yourdose-explain-firstline, #shipping-explain-firstline {
+  color: teal;
+  font-size: x-large;
+  font-weight: 400;
+  padding-top: 50px;
+}
+
 #yourdose-explain-body, #shipping-explain-body {
   padding: 2%;
-  /* clear: both; */
+  clear: both;
 }
 
 #contract-table, #shipping-table {

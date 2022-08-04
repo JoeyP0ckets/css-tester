@@ -62,7 +62,7 @@ const YourDoses = () => {
           <div id="shipping-explain-firstline">
             your First Dose order.
           </div>
-          <div id="yourdose-shipping-body">
+          <div id="shipping-explain-body">
             First Dose uses ShipStation to provide up-to-date information on your current orders. Click on an order below to see its status.
           </div>
         </div>
