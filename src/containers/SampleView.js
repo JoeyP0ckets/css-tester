@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button } from 'react-bootstrap'
 
 const SampleView = (props) => {
 
@@ -16,6 +17,7 @@ const SampleView = (props) => {
           </div>
         </div>
       </div>
+      <Button variant="primary" className="btn-primary" id="place-order-button">Place Order</Button>
     </div>
   )
 }
