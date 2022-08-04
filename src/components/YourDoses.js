@@ -31,7 +31,7 @@ const YourDoses = () => {
         </div>
         <div className='contracts-table-scrollable-container'>
           <Table striped bordered hover variant="dark" id="contract-table">
-            <thead>
+            <thead style={{position: "sticky", top: "0"}}>
               <tr>
                 <th>Quantity</th>
                 <th>Sample Name</th>
@@ -53,6 +53,7 @@ const YourDoses = () => {
             </tbody>
         </Table>
         </div>
+        <br></br>
       </div>
       <div className="yourdose-shipping-frame">
         <div className="shipping-explain-container">

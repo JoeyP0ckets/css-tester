@@ -474,8 +474,8 @@
 }
 
 #yourdose-explain-header, #shipping-explain-header {
-  margin: 1%;
-  padding: 1%;
+  /* margin: 1%; */
+  /* padding: 1%; */
   padding-top: 25px;
   padding-left: 25px;
   padding-right: 25px;
@@ -487,14 +487,16 @@
 }
 
 #yourdose-explain-firstline, #shipping-explain-firstline {
-  color: teal;
+  color: rgb(5, 177, 177);
   font-size: x-large;
   font-weight: 400;
   padding-top: 50px;
 }
 
 #yourdose-explain-body, #shipping-explain-body {
-  padding: 2%;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
   clear: both;
 }
 
