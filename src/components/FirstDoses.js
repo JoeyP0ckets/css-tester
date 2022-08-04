@@ -27,7 +27,7 @@ const FirstDoses = () => {
     <div className="first-doses-page">
       <div id="theatre">
         <div className="sample-view-container">
-            {selectedSample ? <SampleView selectedSample={selectedSample} /> : <h3 id="please_select"></h3>}
+            {selectedSample ? <SampleView selectedSample={selectedSample} /> : <h3 id="please_select"> </h3>}
         </div>
       </div>
       <div className="samples-container">
