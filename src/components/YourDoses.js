@@ -3,6 +3,7 @@ import { Table } from 'react-bootstrap'
 import ShippingLabel from '../containers/ShippingLabel';
 import ShippingTracker from '../containers/ShippingTracker';
 import { getYourDoses } from '../DataGrabber'
+import { Container, Row, Col } from 'react-bootstrap'
 
 
 const YourDoses = () => {
@@ -31,7 +32,7 @@ const YourDoses = () => {
         </div>
         <div className='contracts-table-scrollable-container'>
           <Table striped bordered hover variant="dark" id="contract-table">
-            <thead style={{position: "sticky", top: "0"}}>
+            <thead style={{ position: "sticky", top: "0" }}>
               <tr>
                 <th>Quantity</th>
                 <th>Sample Name</th>
@@ -51,7 +52,7 @@ const YourDoses = () => {
                 ))
               }
             </tbody>
-        </Table>
+          </Table>
         </div>
         <br></br>
       </div>
@@ -74,6 +75,18 @@ const YourDoses = () => {
           <ShippingLabel />
         </div>
       </div>
+      <br></br>
+      
+      <Container className="contact-container">
+        <div id="contact-text">
+          <h1 id="contact-header">Contact Info</h1>
+          <div id="contact-info">
+            Wellness Pharma<br>
+            </br>784 N. Tailwater Road<br>
+            </br>Norwich, CT 06360
+          </div>
+        </div>
+      </Container>
     </div>
   )
 }
