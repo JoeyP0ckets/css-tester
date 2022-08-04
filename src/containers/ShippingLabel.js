@@ -4,10 +4,10 @@ const ShippingLabel = (props) => {
   const {sample_name, quantity, status_datetime} = props.selectedOrder
   return(
    <div className= "shipping-label-text">
-     Dose: {sample_name}
-            {quantity}
-     Signed on: {status_datetime}
-     Tracking No: 123456-7653
+     <b>Dose:</b> {sample_name}
+            {quantity}<br></br>
+    <b>Signed on:</b> {status_datetime}<br></br>
+     <b>Tracking No:</b> 123456-7653<br></br>
    </div>
   )
 }
