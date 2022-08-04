@@ -29,28 +29,30 @@ const YourDoses = () => {
             First Dose Fulfillment uses Hellosign to easily send contracts right to your email.  Once you sign, your first dose is on the way.  Keep track with the table below.
           </div>
         </div>
-        <Table striped bordered hover variant="dark" id="contract-table">
-          <thead>
-            <tr>
-              <th>Quantity</th>
-              <th>Sample Name</th>
-              <th>Status</th>
-              <th>Date Ordered</th>
-            </tr>
-          </thead>
-          <tbody>
-            {
-              yourDoses.map((dose) => (
-                <tr key={dose.id}>
-                  <td>{dose.quantity} {dose.quantity === 1 ? "dose" : "orders"}</td>
-                  <td>{dose.sample_name}</td>
-                  <td>{dose.status}</td>
-                  <td>{dose.status_datetime}</td>
-                </tr>
-              ))
-            }
-          </tbody>
+        <div className='contracts-table-scrollable-container'>
+          <Table striped bordered hover variant="dark" id="contract-table">
+            <thead>
+              <tr>
+                <th>Quantity</th>
+                <th>Sample Name</th>
+                <th>Status</th>
+                <th>Date Ordered</th>
+              </tr>
+            </thead>
+            <tbody>
+              {
+                yourDoses.map((dose) => (
+                  <tr key={dose.id}>
+                    <td>{dose.quantity} {dose.quantity === 1 ? "dose" : "orders"}</td>
+                    <td>{dose.sample_name}</td>
+                    <td>{dose.status}</td>
+                    <td>{dose.status_datetime}</td>
+                  </tr>
+                ))
+              }
+            </tbody>
         </Table>
+        </div>
       </div>
       <div className="yourdose-shipping-frame">
         <div className="shipping-explain-container">
