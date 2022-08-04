@@ -2,7 +2,7 @@ import { React, useState } from 'react'
 import { getAllSamples } from '../DataGrabber'
 import SampleCard from './SampleCard'
 import SampleView from '../containers/SampleView'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 
 const FirstDoses = () => {
 
