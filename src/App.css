@@ -486,6 +486,7 @@
 
 #yourdose-explain-body, #shipping-explain-body {
   padding: 2%;
+  /* clear: both; */
 }
 
 #contract-table, #shipping-table {

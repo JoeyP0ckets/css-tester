@@ -12,8 +12,8 @@ const YourDoses = () => {
   let signedOrders = yourDoses.filter(order => {
     return order.order_sent === true;
   });
-  
-  
+
+
 
   return (
     <div className="your-doses-page">
@@ -22,8 +22,11 @@ const YourDoses = () => {
           <div id="yourdose-explain-header">
             Check
           </div>
+          <div id="yourdose-explain-firstline">
+            the status of your contract.
+          </div>
           <div id="yourdose-explain-body">
-            the status of your contract.  First Dose Fulfillment uses Hellosign to easily send contracts right to your email.  Once you sign, your first dose is on the way.  Keep track with the table below.
+            First Dose Fulfillment uses Hellosign to easily send contracts right to your email.  Once you sign, your first dose is on the way.  Keep track with the table below.
           </div>
         </div>
         <Table striped bordered hover variant="dark" id="contract-table">
@@ -54,16 +57,19 @@ const YourDoses = () => {
           <div id="shipping-explain-header">
             Track
           </div>
-          <div id="yourdose-explain-body">
-            your First Dose order.  First Dose uses ShipStation to provide up-to-date information on your current orders. Click on an order below to see its status.
+          <div id="shipping-explain-firstline">
+            your First Dose order.
+          </div>
+          <div id="yourdose-shipping-body">
+            First Dose uses ShipStation to provide up-to-date information on your current orders. Click on an order below to see its status.
           </div>
         </div>
         <div className="shipping-info-data">
-        <ShippingTracker signedOrders={signedOrders}/>
-      </div>
-      <div>
-        <ShippingLabel/>
-      </div>
+          <ShippingTracker signedOrders={signedOrders} />
+        </div>
+        <div>
+          <ShippingLabel />
+        </div>
       </div>
     </div>
   )
