@@ -497,6 +497,7 @@
   padding-left: 25px;
   padding-right: 25px;
   padding-bottom: 25px;
+  font-weight: 400;
   clear: both;
 }
 
@@ -514,7 +515,7 @@
 }
 
 .shipping-table-scrollable-container {
-  height: 185px;
+  height: 200px;
   /* margin-bottom: 10px; */
 }
 
