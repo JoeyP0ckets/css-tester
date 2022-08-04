@@ -444,11 +444,6 @@
   border-top-width: 0px;
 }
 
-.contracts-table-scrollable-container{
-  height: 200px;
-  overflow-y: auto;
-}
-
 .yourdose-shipping-frame{
   border-bottom-width: 1px;
 }
@@ -504,13 +499,27 @@
 
 #contract-table, #shipping-table {
   margin-bottom: 2%;
-  /* max-width: 75%; */
   font-size: larger;
+}
+
+.contracts-table-scrollable-container, .shipping-table-scrollable-container{
+  height: 200px;
+  overflow-y: auto;
+}
+
+.shipping-table-scrollable-container {
+  width: 40%;
+  /* max-width: 50%; */
+}
+
+#contract-table {
+
 }
 
 #shipping-table {
 
 }
+
 
 /* .shipping-info-data {
   visibility: hidden;

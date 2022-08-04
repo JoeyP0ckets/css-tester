@@ -3,7 +3,7 @@ import React from "react"
 const ShippingLabel = () => {
   return(
    <div>
-     I'm the shipping label
+     You're in a laundry room
    </div>
   )
 }

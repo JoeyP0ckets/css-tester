@@ -74,9 +74,35 @@ const YourDoses = () => {
         <div>
           <ShippingLabel />
         </div>
+
+        <div className='shipping-table-scrollable-container'>
+          <Table striped bordered hover variant="dark" id="shipping-table">
+            <thead style={{ position: "sticky", top: "0" }}>
+              <tr>
+                <th>Quantity</th>
+                <th>Sample Name</th>
+                <th>Status</th>
+                <th>Date Ordered</th>
+              </tr>
+            </thead>
+            <tbody>
+              {
+                yourDoses.map((dose) => (
+                  <tr key={dose.id}>
+                    <td>{dose.quantity} {dose.quantity === 1 ? "dose" : "orders"}</td>
+                    <td>{dose.sample_name}</td>
+                    <td>{dose.status}</td>
+                    <td>{dose.status_datetime}</td>
+                  </tr>
+                ))
+              }
+            </tbody>
+          </Table>
+        </div>
+        <br></br>
       </div>
       <br></br>
-      
+
       <Container className="contact-container">
         <div id="contact-text">
           <h1 id="contact-header">Contact Info</h1>
