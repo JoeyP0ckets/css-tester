@@ -3,11 +3,11 @@ import { Table } from 'react-bootstrap'
 import ShippingLabel from '../containers/ShippingLabel';
 import ShippingTracker from '../containers/ShippingTracker';
 import { getYourDoses } from '../DataGrabber'
-import { Container } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 
 
 const YourDoses = () => {
-   
+
   const [selectedOrder, setSelectedOrder] = useState(null);
   let yourDoses = getYourDoses();
 
@@ -35,7 +35,7 @@ const YourDoses = () => {
           </div>
         </div>
         <div className='contracts-table-scrollable-container'>
-          <Table striped bordered hover variant="dark" id="contract-table">
+          <Table striped bordered hover variant="light" id="contract-table">
             <thead style={{ position: "sticky", top: "0" }}>
               <tr>
                 <th>Quantity</th>
@@ -61,24 +61,30 @@ const YourDoses = () => {
         <br></br>
       </div>
       <div className="yourdose-shipping-frame">
-        <div className="shipping-explain-container">
-          <div id="shipping-explain-header">
-            Track
-          </div>
-          <div id="shipping-explain-firstline">
-            your First Dose order.
-          </div>
-          <div id="shipping-explain-body">
-            First Dose uses ShipStation to provide up-to-date information on your current orders. Click on an order below to see its status.
-          </div>
-        </div>
-        <div className="shipping-info-data">
-          <ShippingTracker signedOrders={signedOrders} handleOrderClick={handleOrderClick} />
-        </div>
-        <div>
-          { selectedOrder ? <ShippingLabel selectedOrder={selectedOrder}/> : "Please Select a Shipping Order"}
-        </div>
-       <br></br>
+        <Row id style={{ display: "flex", textAlign: "cen ter" }}>
+          <Col className="column-shipping" id="shipping-col-left">
+            <div className="shipping-explain-container">
+              <div id="shipping-explain-header">
+                Track
+              </div>
+              <div id="shipping-explain-firstline">
+                your First Dose order.
+              </div>
+              <div id="shipping-explain-body">
+                First Dose uses ShipStation to provide up-to-date information on your current orders. Click on an order below to see its status.
+              </div>
+            </div>
+            <div className="shipping-info-data">
+              <ShippingTracker signedOrders={signedOrders} handleOrderClick={handleOrderClick} />
+            </div>
+          </Col>
+          <Col className="column-shipping" id="shipping-col-right">
+            <div id="shipping-text-container">
+              {selectedOrder ? <ShippingLabel selectedOrder={selectedOrder} /> : "Please Select a Shipping Order"}
+            </div>
+          </Col>
+        </Row>
+        <br></br>
       </div>
       <br></br>
 

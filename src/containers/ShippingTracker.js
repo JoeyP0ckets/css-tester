@@ -5,7 +5,7 @@ const ShippingTracker = (props) => {
 
   return(
     <div className='shipping-table-scrollable-container'>
-          <Table striped bordered hover variant="dark" id="shipping-table">
+          <Table striped bordered hover variant="light" id="shipping-table">
             <thead style={{ position: "sticky", top: "0" }}>
               <tr>
                 <th>Sample Name</th>
