@@ -8,6 +8,7 @@ import {
 import Home from "../components/Home"
 import FirstDoses from "../components/FirstDoses"
 import YourDoses from "../components/YourDoses"
+import LoginSignup from "../containers/LoginSignup"
 
 const Navbar = () => {
   return (
@@ -28,7 +29,7 @@ const Navbar = () => {
           <Route path="/" element={<Home />} />
           <Route path="/FirstDoses" element={<FirstDoses />} />
           <Route path="/YourDoses" element={<YourDoses />} />
-          <Route path="/LogOut" element={<YourDoses />} />
+          <Route path="/LogOut" element={<LoginSignup />} />
 
         </Routes>
       </Router>
