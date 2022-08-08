@@ -113,8 +113,6 @@
 }
 
 #login-left-col h1 {
-  /* background: black; */
-  /* padding-top: 35px; */
   margin-top: 75px;
   padding: 1%;
   padding-left: 50px;
@@ -168,8 +166,8 @@
   padding-bottom: 1%;
   top: 0;
   z-index: 100;
-  position: fixed;
-  visibility: hidden;
+  position: sticky;
+  /* visibility: hidden; */
 }
 
 .main-nav {
@@ -627,23 +625,40 @@
   float: right;
   height: 440px;
   /* background-color: #282c34; */
-  background: radial-gradient(circle, rgb(40, 44, 52) 0%, rgba(0, 0, 0, 0.779) 48%, rgb(40, 44, 52) 100%);
+  background: rgb(143,143,143);
+  background: radial-gradient(circle, rgba(143,143,143,1) 0%, rgba(69,68,68,1) 17%, rgba(0,0,0,1) 85%);
   color: white;
-  margin-top: 10px;
   /* margin-bottom: 10px; */
-  padding: 25%;
+  /* padding: 15%; */
   width: 100%;
   /* height: 95%; */
+
+  margin-top: 10px;
+  padding: 15px;
   border-radius: 25px;
-  align-content: center;
+  text-align: left;
+  overflow-y: auto;
 }
 
 .shipping-label-text {
-  margin: -15%;
-  padding-bottom: 10%;
+  margin: 0;
+  padding: 5px;
   font-size: xx-large;
+
 }
 
+.shipping-label-bold-text {
+  color: teal;
+  text-align: left;
+  padding-right: 10px;
+  
+}
+
+.shipping-label-address-text {
+  text-align: left;
+  padding-left: 150px;
+  margin-top: -50px;
+}
 
 /* .shipping-info-data {
   visibility: hidden;

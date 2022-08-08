@@ -1,4 +1,23 @@
-[{"sample_name": "Albuterol", "sample_number": "1A", "image_url": "https://www.grxstatic.com/d4fuqqd5l3dbz/products/Package_24672.JPG", "description": "Albuterol (also known as salbutamol) is used to treat wheezing and shortness of breath caused by breathing problems such as asthma. It is a quick-relief medication. Albuterol belongs to a class of drugs known as bronchodilators.", "sample_size": "2.5 mg"},
-  {"sample_name": "Generic Duoneb", "sample_number": "1B", "image_url": "https://imgcdn.mckesson.com/CumulusWeb/Images/High_Res/464217.jpg", "description": "DuoNeb® (ipratropium bromide and albuterol sulfate) is used to help treat airway narrowing (bronchospasm) that happens with chronic obstructive pulmonary disease (COPD) in adult patients who need to use more than one bronchodilator medicine.", "sample_size": " combination 2.5 mg(Albuterol) and 0.5 mg (Ipratropium)"},
-  {"sample_name": "Perforomist", "sample_number": "1C", "image_url": "https://www.grxstatic.com/d4fuqqd5l3dbz/products/Package_20191.JPG", "description": "Perforomist Inhalation Solution is a long-acting beta2-adrenergic agonist (LABA) used to control the symptoms of COPD in adults with COPD. COPD is a chronic lung disease that includes chronic bronchitis, emphysema, or both.", "sample_size": "20 mcg"}
-] 
+[
+  {
+    "sample_name": "Albuterol",
+    "sample_number": "1A",
+    "image_url": "https://www.grxstatic.com/d4fuqqd5l3dbz/products/Package_24672.JPG",
+    "description": "Albuterol (also known as salbutamol) is used to treat wheezing and shortness of breath caused by breathing problems such as asthma. It is a quick-relief medication. Albuterol belongs to a class of drugs known as bronchodilators.",
+    "sample_size": "2.5 mg"
+  },
+  {
+    "sample_name": "Generic Duoneb",
+    "sample_number": "1B",
+    "image_url": "https://imgcdn.mckesson.com/CumulusWeb/Images/High_Res/464217.jpg",
+    "description": "DuoNeb® (ipratropium bromide and albuterol sulfate) is used to help treat airway narrowing (bronchospasm) that happens with chronic obstructive pulmonary disease (COPD) in adult patients who need to use more than one bronchodilator medicine.",
+    "sample_size": " combination 2.5 mg(Albuterol) and 0.5 mg (Ipratropium)"
+  },
+  {
+    "sample_name": "Perforomist",
+    "sample_number": "1C",
+    "image_url": "https://www.grxstatic.com/d4fuqqd5l3dbz/products/Package_20191.JPG",
+    "description": "Perforomist Inhalation Solution is a long-acting beta2-adrenergic agonist (LABA) used to control the symptoms of COPD in adults with COPD. COPD is a chronic lung disease that includes chronic bronchitis, emphysema, or both.",
+    "sample_size": "20 mcg"
+  }
+]
