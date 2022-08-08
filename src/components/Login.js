@@ -14,7 +14,7 @@ const Login = () => {
   return(
       <div className="login-form">
         { loggedIn ? 
-          <div>Jon is a flacid man child</div> :
+          <div></div> :
           <Form className="form-width">
             <Form.Group>
               <Form.Control type="text" placeholder="Name" name="name"/>  
