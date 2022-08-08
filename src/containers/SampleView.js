@@ -8,16 +8,16 @@ const SampleView = (props) => {
   return (
     <div id="sample-view-window">
       <h1 style={{ paddingTop: "20px", color: "whitesmoke", fontWeight: "bold" }}>{sample_name}</h1>
-      <img id="selected_sample_image" src={image_url} alt={sample_name} />
+      <img id="selected_sample_image" className="fade-in-image" src={image_url} alt={sample_name} />
       <div className="sample-info-container">
         <div id="scroll-container">
-          <div id="scroll-text">
+          <div id="scroll-text" className="fade-in-image">
             <h4>{description}</h4>
             <h4>Sample Size: {sample_size}</h4>
           </div>
         </div>
       </div>
-      <Button variant="primary" className="btn-primary" id="place-order-button">Place Order</Button>
+      <Button variant="primary" className="btn-primary fade-in-image" id="place-order-button">Place Order</Button>
     </div>
   )
 }

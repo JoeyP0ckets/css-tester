@@ -7,7 +7,7 @@ const LoginSignup = () => {
   return (
     <Row id="login-row">
       <Col id="login-left-col" style={{height: "100vh"}}>
-          <h1 id="login-page-header" className="header-slide-in" style={{fontFamily: "Cinzel", textAlign: "center"}}>First Dose Fulfillment™</h1>
+          <h1 id="login-page-header" className="header-fade-in" style={{fontFamily: "Cinzel", textAlign: "center"}}>First Dose Fulfillment™</h1>
           <div className="login-image fade-in-image">
             
           </div>
