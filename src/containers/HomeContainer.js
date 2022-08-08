@@ -5,9 +5,9 @@ import { NavLink} from "react-router-dom"
 const HomeContainer = () => {
   return (
     <Container className="home-container container-fluid">
-      <Container className="about-container container-fluid">
-        <div id="about-text">
-          <h1 id="about-header">First Dose Fulfillment</h1>
+      <Container className="about-container container-fluid box-fade">
+        <div id="about-text" className="box-fade">
+          <h1 id="about-header" className="grow-text">First Dose Fulfillment</h1>
           <div id="about-statement">
             Helping your patients breathe easier.
           </div>
