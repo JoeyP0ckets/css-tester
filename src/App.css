@@ -59,23 +59,20 @@
   /* text-shadow: 1px 1px 1px navy; */
 }
 
-.main-nav:hover {
-  opacity: 1;
-  /* font-weight: bold; */
-  color: navy;
-  /* text-shadow: 0 0 1px teal, 0 0 5px teal,
-           0 0 10px teal, 0 0 12px teal,
-           0 0 15px teal; */
-
-  text-decoration: underline;
-}
-
 .navbar-container {
+  border-bottom: double black;
+  background-color: rgba(1, 0, 3, 0.75);
   border-bottom: double rgb(33, 33, 33);
   background-position: center;
   background-size: contain;
   background-repeat: repeat;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  top: 0;
+  z-index: 100;
+  position: sticky;
   opacity: 95%;
+  /* visibility: hidden; */
 }
 
 .navbar-container::after {
@@ -91,6 +88,22 @@
   position: relative;
   color: white;
 }
+
+.doc-nav-container {
+  justify-content: center;
+}
+
+.main-nav:hover {
+  opacity: 1;
+  /* font-weight: bold; */
+  color: navy;
+  /* text-shadow: 0 0 1px teal, 0 0 5px teal,
+           0 0 10px teal, 0 0 12px teal,
+           0 0 15px teal; */
+
+  text-decoration: underline;
+}
+
 
 /* --------Login--------*/
 
@@ -156,33 +169,6 @@
 
 .home-container {
   display: block;
-}
-
-.navbar-container {
-  border-bottom: double black;
-  background-color: rgba(1, 0, 3, 0.75);
-  padding-top: 1%;
-  padding-bottom: 1%;
-  top: 0;
-  z-index: 100;
-  position: sticky;
-  /* visibility: hidden; */
-}
-
-.main-nav {
-  /* font-family: "Cinzel"; */
-  /* text-transform: uppercase; */
-  text-decoration: none;
-  margin-left: 70px;
-}
-
-.nav-links {
-  padding-right: 70px;
-  padding-top: 25px;
-}
-
-.doc-nav-container {
-  justify-content: center;
 }
 
 .about-container {
