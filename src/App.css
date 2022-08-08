@@ -134,8 +134,6 @@
   width: 100%;
 }
 
-.header-fade-in { animation: fadeIn 3s; }
-
 .login-image {
   background-image: url("../src/img/first_dose_WHITE_periodic_final2.png");
 
@@ -147,19 +145,6 @@
   margin-top: 50px;
 }
 
-/* Logo fade-in effect: */
-
-.fade-in-image { animation: fadeIn 3s; }
-
-@keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-@keyframes fadeBackground {
-  from { background-color: black; }
-  to { background-color: radial-gradient(circle, rgb(2, 0, 65) 0%, rgba(11, 59, 112, 0.68531162464986) 25%,rgb(4, 0, 53) 85%); }
-}
 
 .form-control {
   align-items: center;
@@ -195,7 +180,7 @@
   /* background: rgb(5, 0, 77); */
   
   /* FF7 boxes: */ 
-   background: linear-gradient(315deg, rgba(5, 0, 77, 1) 0%, rgba(4, 0, 53, 1) 59%, rgb(136, 132, 175) 100%);
+  background: linear-gradient(315deg, rgba(5, 0, 77, 1) 0%, rgba(4, 0, 53, 1) 59%, rgb(136, 132, 175) 100%);
   
   /* Gray radial: */
   /* background: linear-gradient(315deg, rgba(5, 0, 77, 1) 0%, rgba(4, 0, 53, 1) 59%, rgb(136, 132, 175) 100%); */
@@ -620,6 +605,13 @@
   border-radius: 25px;
   text-align: left;
   overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#please-select-shipping-order{
+  text-align: center;
+  padding-top: 50px;
+  font-size: x-large;
 }
 
 .shipping-label-text {
@@ -644,3 +636,32 @@
 /* .shipping-info-data {
   visibility: hidden;
 } */
+
+/* Animation effects: */
+
+.grow-text { animation: grow-shrink 5s ease 3s;}
+
+.header-fade-in { animation: fadeIn 3s; }
+
+.fade-in-image { animation: fadeIn 3s; }
+
+.box-fade { animation: boxFade 3s; }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadeBackground {
+  from { background-color: black; }
+  to { background-color: radial-gradient(circle, rgb(2, 0, 65) 0%, rgba(11, 59, 112, 0.68531162464986) 25%,rgb(4, 0, 53) 85%); }
+}
+
+@keyframes boxFade {
+  0% { transform: translateX(-100%) }
+  100% { transform: translateX(0) }
+}
+
+@keyframes grow-shrink {
+  50% { transform: scale(1.2); }
+}
