@@ -4,7 +4,7 @@ const ShippingLabel = (props) => {
   const { sample_name, quantity, shipping_address_line1, shipping_address_line2, shipping_address_line3, status_datetime } = props.selectedOrder
 
   return (
-    <div className="shipping-label-text">
+    <div className="shipping-label-text fade-in-image">
       <b className="shipping-label-bold-text">Dose:</b> {sample_name}<br></br>
       <b className="shipping-label-bold-text">Quantity:</b> {quantity}<br></br>
       <hr></hr>

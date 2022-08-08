@@ -4,7 +4,7 @@ import { Table } from "react-bootstrap"
 const ShippingTracker = (props) => {
 
   return(
-    <div className='shipping-table-scrollable-container'>
+    <div className="shipping-table-scrollable-container">
           <Table striped bordered hover variant="light" id="shipping-table">
             <thead style={{ position: "sticky", top: "0" }}>
               <tr>

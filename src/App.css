@@ -620,6 +620,22 @@
   border-radius: 25px;
   text-align: left;
   overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.grow-text {
+  animation: grow-shrink 8s;
+  overflow: hidden;
+}
+
+@keyframes grow-shrink {
+  50% { transform: scale(1.2); }
+}
+
+#please-select-shipping-order{
+  text-align: center;
+  padding-top: 50px;
+  font-size: x-large;
 }
 
 .shipping-label-text {
