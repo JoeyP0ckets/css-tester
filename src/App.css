@@ -99,15 +99,6 @@
 }
 
 #login-left-col {
-  /* solid blue */
-  /* background-color: rgb(11, 7, 71); */
-
-  /* FF7 boxes:*/
-  /* background: linear-gradient(315deg, rgba(5, 0, 77, 1) 0%, rgba(4, 0, 53, 1) 59%, rgb(136, 132, 175) 100%); */
-  
-  /* Gray radial: */
-  /* background: radial-gradient(circle, rgba(7, 7, 8, 0.63) 0%, rgba(97, 97, 97, 0.7791491596638656) 48%, rgba(9, 9, 9, 0.762) 100%); */
-
   /* Blue radial: */
   background: radial-gradient(circle, rgb(2, 0, 65) 0%, rgba(11, 59, 112, 0.68531162464986) 25%,rgb(4, 0, 53) 85%);
   animation: fadeBackground 3s;
@@ -130,7 +121,7 @@
   width: 100%;
 }
 
-.header-slide-in { animation: fadeIn 3s; }
+.header-fade-in { animation: fadeIn 3s; }
 
 .login-image {
   background-image: url("../src/img/first_dose_WHITE_periodic_final2.png");
@@ -323,6 +314,8 @@
 .sample-view-container {
   background: rgb(7, 7, 8);
   background: radial-gradient(circle, rgba(7, 7, 8, 0.63) 0%, rgba(97, 97, 97, 0.7791491596638656) 48%, rgba(9, 9, 9, 0.762) 100%);
+  animation: fadeBackground 3s;
+  animation-fill-mode: forwards;
 
   border: #282c34;
   border-style: inset;
@@ -347,6 +340,8 @@
 #theatre {
   background: rgb(245, 245, 245);
   background: radial-gradient(circle, rgba(245, 245, 245, 1) 0%, rgba(11, 59, 112, 0.68531162464986) 25%, rgb(4, 0, 53) 85%);
+  animation: fadeBackground 3s;
+  animation-fill-mode: forwards;
   border: gray;
   border-style: groove;
   border-width: 1px;

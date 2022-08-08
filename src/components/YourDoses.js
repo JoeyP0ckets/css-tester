@@ -33,7 +33,7 @@ const YourDoses = () => {
             First Dose Fulfillment uses HelloSign to easily send contracts right to your email.  Once you sign, your first dose is on the way.  Keep track with the table below.
           </div>
         </div>
-        <div className='contracts-table-scrollable-container'>
+        <div className="contracts-table-scrollable-container">
           <Table striped bordered hover variant="light" id="contract-table">
             <thead style={{ position: "sticky", top: "0" }}>
               <tr>
