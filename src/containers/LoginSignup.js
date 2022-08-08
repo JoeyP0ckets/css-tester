@@ -6,12 +6,13 @@ const LoginSignup = () => {
   
   return (
     <Row>
-      <Col style={{height: "100vh", backgroundColor: "darkblue", padding: "0px"}}>
-          <h1 style={{fontFamily: "Pacifico", color: "palegoldenrod", textAlign: "center", paddingTop: "75px"}}>Your First Choice in FirstDose</h1>
-          <div className="login-image">
+      <Col id="login-left-col" style={{height: "100vh"}}>
+          <h1 style={{fontFamily: "Cinzel", textAlign: "center"}}>First Dose Fulfillment™</h1>
+          <div className="login-image fade-in-image">
+            
           </div>
       </Col>
-      <Col style={{height: "100vh", padding: "1px"}}>
+      <Col style={{height: "100vh"}}>
         <h3 style={{paddingTop: "200px", textAlign: "center", fontFamily: "Cinzel", fontWeight: ""}}>Login</h3>
         <Login/>
       </Col>
