@@ -15,7 +15,7 @@ const HomeContainer = () => {
       </Container>
 
       <Row style={{ textAlign: "center", paddingTop: "10px" }}>
-        <h1>Greetings, Doctor!</h1>
+        <h1 id="greeting-text">Greetings, Doctor!</h1>
       </Row>
 
       <Container fluid className="doc-nav-container">

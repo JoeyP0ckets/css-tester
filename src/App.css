@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Pacifico&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Pacifico&display=swap');
 
 .App {
   text-align: center;
@@ -70,8 +70,6 @@
   text-decoration: underline;
 }
 
-.main-nav:active {}
-
 .navbar-container {
   border-bottom: double rgb(33, 33, 33);
   background-position: center;
@@ -94,6 +92,58 @@
   color: white;
 }
 
+/* --------Login--------*/
+
+#login-left-col {
+  /* solid blue */
+  /* background-color: rgb(11, 7, 71); */
+
+  /* FF7 boxes:*/
+  /* background: linear-gradient(315deg, rgba(5, 0, 77, 1) 0%, rgba(4, 0, 53, 1) 59%, rgb(136, 132, 175) 100%); */
+  
+  /* Gray radial: */
+  /* background: radial-gradient(circle, rgba(7, 7, 8, 0.63) 0%, rgba(97, 97, 97, 0.7791491596638656) 48%, rgba(9, 9, 9, 0.762) 100%); */
+
+  /* Blue radial: */
+  background: radial-gradient(circle, rgb(2, 0, 65) 0%, rgba(11, 59, 112, 0.68531162464986) 25%,rgb(4, 0, 53) 85%);
+}
+
+#login-left-col h1 {
+  /* background: black; */
+  padding-top: 45px;
+  margin-top: 45px;
+  padding: 1%;
+  color: rgb(2, 0, 65);
+  text-shadow: 1px 1px 2px aqua;
+  font-size: 64px;
+  /* font-variant: small-caps; */
+}
+
+.login-image {
+  background-image: url("../src/img/first_dose_WHITE_periodic_final2.png");
+
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  padding: 35%;
+  margin-top: 100px;
+}
+
+/* Logo fade-in effect: */
+
+.fade-in-image { animation: fadeIn 5s; }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+.form-control {
+  align-items: center;
+}
+
 /* --------Home-------- */
 
 .home-container {
@@ -105,9 +155,10 @@
   background-color: rgba(1, 0, 3, 0.75);
   padding-top: 1%;
   padding-bottom: 1%;
-  position: sticky;
   top: 0;
   z-index: 100;
+  position: sticky;
+  /* visibility: hidden; */
 }
 
 .main-nav {
@@ -146,14 +197,20 @@
 }
 
 #about-text {
-  background-color: rgb(4, 0, 53);
+  /* Navy background: */
+  /* background: rgb(5, 0, 77); */
+  
+  /* FF7 boxes: */ 
+   background: linear-gradient(315deg, rgba(5, 0, 77, 1) 0%, rgba(4, 0, 53, 1) 59%, rgb(136, 132, 175) 100%);
+  
+  /* Gray radial: */
+  /* background: linear-gradient(315deg, rgba(5, 0, 77, 1) 0%, rgba(4, 0, 53, 1) 59%, rgb(136, 132, 175) 100%); */
+
+  /* Blue radial: */
   /* background: radial-gradient(circle, rgb(2, 0, 65) 0%, rgba(11, 59, 112, 0.68531162464986) 25%,rgb(4, 0, 53) 85%); */
-  background: rgb(5, 0, 77);
-  background: linear-gradient(315deg, rgba(5, 0, 77, 1) 0%, rgba(4, 0, 53, 1) 59%, rgb(136, 132, 175) 100%);
+  
   color: white;
-  /* width: 400px; */
   font-style: italic;
-  /* text-shadow: 1px 1px 8px #CCCCCC; */
   text-decoration: solid;
   margin-right: 6%;
   border-style: ridge;
@@ -167,8 +224,8 @@
   font-size: 1.75rem;
 }
 
-.row {
-  align-items: center;
+#greeting-text {
+  margin-bottom: 20px;
 }
 
 .column-home {
@@ -180,13 +237,18 @@
   border-bottom-style: hidden;
 }
 
+.column-home a {
+  align-items: center;
+  font-size: larger;
+}
+
 #home-column-right {
   border-right-style: hidden;
 }
 
 .textBox {
-  padding: 5%;
-  margin: 5%;
+  padding: 3%;
+  margin: 3%;
   color: navy;
   font-size: x-large;
 }
@@ -290,7 +352,6 @@
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  object-fit: cover;
 }
 
 #sample-view-window {
