@@ -580,7 +580,7 @@
 
 .contracts-table-scrollable-container,
 .shipping-table-scrollable-container {
-  height: 215px;
+  height: 220px;
   overflow-y: auto;
   border-radius: 25px;
 }
@@ -599,13 +599,6 @@
   /* width: 100%; */
 }
 
-#shipping-col-left {
-  /* background: #000; */
-}
-
-#shipping-col-right {
-  /* background: teal; */
-}
 
 #shipping-text-container {
   float: right;
