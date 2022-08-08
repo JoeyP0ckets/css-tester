@@ -110,9 +110,11 @@
 
 #login-left-col h1 {
   /* background: black; */
-  padding-top: 45px;
-  margin-top: 45px;
+  /* padding-top: 35px; */
+  margin-top: 75px;
   padding: 1%;
+  padding-left: 50px;
+  padding-right: 50px;
   color: white;
   text-shadow: 10px 10px 3px black;
   font-size: 64px;
@@ -128,12 +130,12 @@
   background-repeat: no-repeat;
 
   padding: 35%;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 /* Logo fade-in effect: */
 
-.fade-in-image { animation: fadeIn 5s; }
+.fade-in-image { animation: fadeIn 3s; }
 
 @keyframes fadeIn {
   0% { opacity: 0; }
