@@ -19,7 +19,6 @@ const YourDoses = () => {
     setSelectedOrder(order);
   }
 
-
   return (
     <div className="your-doses-page">
       <div className="yourdose-contract-frame">
@@ -31,7 +30,7 @@ const YourDoses = () => {
             the status of your contract.
           </div>
           <div id="yourdose-explain-body">
-            First Dose Fulfillment uses Hellosign to easily send contracts right to your email.  Once you sign, your first dose is on the way.  Keep track with the table below.
+            First Dose Fulfillment uses HelloSign to easily send contracts right to your email.  Once you sign, your first dose is on the way.  Keep track with the table below.
           </div>
         </div>
         <div className='contracts-table-scrollable-container'>
