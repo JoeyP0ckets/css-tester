@@ -110,6 +110,8 @@
 
   /* Blue radial: */
   background: radial-gradient(circle, rgb(2, 0, 65) 0%, rgba(11, 59, 112, 0.68531162464986) 25%,rgb(4, 0, 53) 85%);
+  animation: fadeBackground 3s;
+  animation-fill-mode: forwards;
 }
 
 #login-left-col h1 {
@@ -127,6 +129,8 @@
 #login-right-col {
   width: 100%;
 }
+
+.header-slide-in { animation: fadeIn 3s; }
 
 .login-image {
   background-image: url("../src/img/first_dose_WHITE_periodic_final2.png");
@@ -148,6 +152,10 @@
   100% { opacity: 1; }
 }
 
+@keyframes fadeBackground {
+  from { background-color: black; }
+  to { background-color: radial-gradient(circle, rgb(2, 0, 65) 0%, rgba(11, 59, 112, 0.68531162464986) 25%,rgb(4, 0, 53) 85%); }
+}
 
 .form-control {
   align-items: center;
@@ -644,7 +652,6 @@
   margin: 0;
   padding: 5px;
   font-size: x-large;
-
 }
 
 .shipping-label-bold-text {
