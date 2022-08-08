@@ -639,7 +639,7 @@
 
 /* Animation effects: */
 
-.grow-text { animation: grow-shrink 8s ease 3s;}
+.grow-text { animation: grow-shrink 5s ease 3s;}
 
 .header-fade-in { animation: fadeIn 3s; }
 
