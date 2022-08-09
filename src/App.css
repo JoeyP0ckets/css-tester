@@ -102,6 +102,7 @@
            0 0 15px teal; */
 
   text-decoration: underline;
+  /* animation: auraPulse 3s; */
 }
 
 
@@ -347,6 +348,11 @@
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+#please-select-sample-header {
+  font-size: xx-large;
+  padding: 10px;
 }
 
 #sample-view-window {
@@ -654,7 +660,7 @@
 /* Animation effects: */
 
 .grow-text {
-  animation: growShrink 3s ease 2s;
+  /* animation: growShrink 3s ease 1s 1; */
 }
 
 .header-fade-in {
@@ -704,7 +710,9 @@
 }
 
 @keyframes growShrink {
-  50% { transform: scale(1.2); }
+  50% {
+    transform: scale(1.2);
+  }
 }
 
 @keyframes auraPulse {
@@ -712,10 +720,12 @@
     opacity: 1;
     text-shadow: 1px 1px 1px black;
   }
+
   50% {
     opacity: 0.75;
     text-shadow: -5px -15px 15px #61dafb;
   }
+
   100% {
     opacity: 1;
     text-shadow: 1px 1px 1px black;

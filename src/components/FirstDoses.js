@@ -31,6 +31,7 @@ const FirstDoses = () => {
           {selectedSample ? <SampleView selectedSample={selectedSample} /> : <h3 id="please_select"> </h3>}
         </div>
       </div>
+      <div id="please-select-sample-header">Please select a medication below.</div>
       <div className="samples-container">
         {renderAllSamples()}
       </div><br></br><br></br><br></br>
