@@ -118,7 +118,6 @@
   animation-fill-mode: forwards;
 }
 
-
 #login-left-col h1 {
   margin-top: 75px;
   padding: 1%;
@@ -131,8 +130,21 @@
   /* font-variant: small-caps; */
 }
 
+#login-right-col h3 {
+  padding-bottom: 20px;
+  font-size: xx-large;
+  font-weight: 600;
+}
+
 #login-right-col {
   width: 100%;
+  width: 500px;
+  padding-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 100px;
+  padding-right: 100px;
+  align-items: center;
 }
 
 .login-image {
@@ -144,16 +156,6 @@
 
   padding: 35%;
   margin-top: 50px;
-}
-
-.login-form {
-  width: 500px;
-  padding-top: 5%;
-  margin-left: 10%;
-  margin-right: 10%;
-  padding-left: 15%;
-  padding-right: 15%;
-  align-items: center;
 }
 
 .form-control {

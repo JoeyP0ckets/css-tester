@@ -18,10 +18,10 @@ const Navbar = () => {
           <div className="navbar-logo"></div>
           <div className="navbar-bg"></div>
           <div className="nav-links">
-            <NavLink exact to="/" className="main-nav" activeClassName="main-nav-active">Home</NavLink>
-            <NavLink exact to="/FirstDoses" className="main-nav" activeClassName="main-nav-active">First Doses</NavLink>
-            <NavLink exact to="/YourDoses" className="main-nav" activeClassName="main-nav-active">Your Doses</NavLink>
-            <NavLink exact to="/LogOut" className="main-nav" activeClassName="main-nav-active">Log Out</NavLink>
+            <NavLink exact to="/" className="main-nav">Home</NavLink>
+            <NavLink exact to="/FirstDoses" className="main-nav">First Doses</NavLink>
+            <NavLink exact to="/YourDoses" className="main-nav">Your Doses</NavLink>
+            <NavLink exact to="/LogOut" className="main-nav">Log Out</NavLink>
           </div>
         </div>
 
