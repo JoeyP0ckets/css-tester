@@ -34,7 +34,7 @@ const YourDoses = () => {
           </div>
         </div>
         <div className="contracts-table-scrollable-container">
-          <ContractsTable yourDoses={yourDoses}/>
+          <ContractsTable yourDoses={yourDoses} />
         </div>
         <br></br>
       </div>

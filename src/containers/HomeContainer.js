@@ -21,13 +21,13 @@ const HomeContainer = () => {
       <Container fluid className="doc-nav-container">
         <Row style={{ display: "flex", textAlign: "center" }}>
           <Col className="column-home" id="home-column-left"><h2>First Doses</h2>
-            <div class="textBox">
+            <div className="textBox">
             Shop from our selection of anti-bronchial medications. First Doses can be ordered and sent right to your office. 
             </div>
             <NavLink exact to="/FirstDoses">First Doses</NavLink>
           </Col>
           <Col className="column-home" id="home-column-right"><h2>Your Doses</h2>
-            <div class="textBox">
+            <div className="textBox">
 
             Keep track of your orders.  View information on your past orders as well as check the status of your current ones.
 
