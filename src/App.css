@@ -639,13 +639,13 @@
 
 /* Animation effects: */
 
-.grow-text { animation: grow-shrink 5s ease 3s;}
+.grow-text { animation: grow-shrink 3s ease 2s;}
 
 .header-fade-in { animation: fadeIn 3s; }
 
-.fade-in-image { animation: fadeIn 3s; }
+.fade-in-image { animation: fadeIn 2s; }
 
-.box-fade { animation: boxFade 3s; }
+.box-fade { animation: boxFade 2s; }
 
 @keyframes fadeIn {
   0% { opacity: 0; }
