@@ -2,7 +2,7 @@ import { React, useState } from 'react'
 import { getAllSamples } from '../DataGrabber'
 import SampleCard from './SampleCard'
 import SampleView from '../containers/SampleView'
-import { Container } from 'react-bootstrap'
+import ContactFooter from '../containers/ContactFooter'
 
 const FirstDoses = () => {
 
@@ -35,11 +35,7 @@ const FirstDoses = () => {
       <div className="samples-container">
         {renderAllSamples()}
       </div><br></br><br></br><br></br>
-
-      <Container className="contact-container">
-        <div id="contact-text">
-        </div>
-      </Container>
+      <ContactFooter/>
 
     </div>
   )
