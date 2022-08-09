@@ -30,7 +30,6 @@ const Navbar = () => {
           <Route path="/FirstDoses" element={<FirstDoses />} />
           <Route path="/YourDoses" element={<YourDoses />} />
           <Route path="/LogOut" element={<LoginSignup />} />
-
         </Routes>
       </Router>
     </div>
