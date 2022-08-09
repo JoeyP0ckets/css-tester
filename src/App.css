@@ -279,10 +279,6 @@
   width: 100%;
 }
 
-#contact-text:after {
-  content: "Having trouble? Contact us at: jpatterson@southal.swamp"
-}
-
 #contact-info {
   padding-left: 10%;
   padding-bottom: 5%;
