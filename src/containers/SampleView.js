@@ -17,7 +17,7 @@ const SampleView = (props) => {
           </div>
         </div>
       </div>
-      <Button variant="primary" className="btn-primary fade-in-image" id="place-order-button">Place Order</Button>
+      <Button variant="primary" className="btn-primary" id="place-order-button">Place Order</Button>
     </div>
   )
 }
