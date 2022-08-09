@@ -1,11 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from 'react-bootstrap'
-<<<<<<< HEAD
 import { NavLink } from "react-router-dom"
-=======
 import { NavLink} from "react-router-dom"
 import ContactFooter from './ContactFooter'
->>>>>>> f3fb8530bdc7d6e46bad7b89103a8c96795d45c7
+import { NavLink} from "react-router-dom"
+import ContactFooter from './ContactFooter'
 
 const HomeContainer = () => {
   return (
