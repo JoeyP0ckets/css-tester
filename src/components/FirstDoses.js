@@ -2,7 +2,6 @@ import { React, useState } from 'react'
 import { getAllSamples } from '../DataGrabber'
 import SampleCard from './SampleCard'
 import SampleView from '../containers/SampleView'
-import { Container } from 'react-bootstrap'
 import ContactFooter from '../containers/ContactFooter'
 
 const FirstDoses = () => {

@@ -2,7 +2,7 @@ import { React, useState } from 'react'
 import ShippingLabel from '../containers/ShippingLabel';
 import ShippingTracker from '../containers/ShippingTracker';
 import { getYourDoses } from '../DataGrabber'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 import ContractsTable from './ContractsTable';
 import ContactFooter from '../containers/ContactFooter';
 
