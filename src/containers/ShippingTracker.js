@@ -2,6 +2,7 @@ import React from "react"
 import { Table } from "react-bootstrap"
 
 const ShippingTracker = (props) => {
+  let sortedSignedOrders = props.signedOrders.sort((a, b) => a.status_datetime - b.status_datetime);
 
   return(
     <div className="shipping-table-scrollable-container">
@@ -14,7 +15,7 @@ const ShippingTracker = (props) => {
               </tr>
             </thead>
             <tbody>
-              {props.signedOrders.map((order) => (
+              {sortedSignedOrders.map((order) => (
                   <tr key={order.id} onClick={() => props.handleOrderClick(order)}>
                     <td>{order.sample_name}</td>
                     <td>{order.quantity} {order.quantity === 1 ? "dose" : "orders"}</td>
