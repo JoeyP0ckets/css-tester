@@ -642,7 +642,7 @@
 /* Animation effects: */
 
 .grow-text {
-  /* animation: growShrink 3s ease 2s; */
+  animation: growShrink 3s ease 2s;
 }
 
 .header-fade-in {
@@ -701,7 +701,7 @@
     text-shadow: 1px 1px 1px black;
   }
   50% {
-    /* opacity: 0.5; */
+    opacity: 0.75;
     text-shadow: -5px -15px 15px #61dafb;
   }
   100% {

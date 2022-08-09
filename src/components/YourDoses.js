@@ -78,8 +78,8 @@ const YourDoses = () => {
             </div>
           </Col>
           <Col className="column-shipping" id="shipping-col-right">
-            <div id="shipping-text-container" className="aura-pulse">
-              {selectedOrder ? <ShippingLabel selectedOrder={selectedOrder} /> : <div id="please-select-shipping-order" className="grow-text">Please Select a Shipping Order</div>}
+            <div id="shipping-text-container">
+              {selectedOrder ? <ShippingLabel selectedOrder={selectedOrder} /> : <div id="please-select-shipping-order" className="grow-text aura-pulse">Please Select a Shipping Order</div>}
             </div>
           </Col>
         </Row>
