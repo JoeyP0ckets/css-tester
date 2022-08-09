@@ -385,6 +385,10 @@
   overflow: hidden;
 }
 
+#scroll-container h4 {
+  /* border: 1px solid black; */
+}
+
 #scroll-text {
   /* text scroll animation properties */
   -moz-transform: translateY(100%);
@@ -399,7 +403,7 @@
   /* for Firefox */
   @-moz-keyframes text-scroll {
     from {
-      -moz-transform: translateY(100%);
+      -moz-transform: translateY(-100%);
     }
 
     to {
@@ -411,7 +415,7 @@
 /* for Chrome */
 @-webkit-keyframes text-scroll {
   from {
-    -webkit-transform: translateY(100%);
+    -webkit-transform: translateY(-100%);
   }
 
   to {
@@ -421,7 +425,7 @@
 
 @keyframes text-scroll {
   from {
-    -moz-transform: translateY(100%);
+    -moz-transform: translateY(-100%);
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
   }
@@ -453,6 +457,7 @@
   /* min-height: 220px; */
   /* max-height: 280px; */
   margin: auto;
+  max-height: 300px;
   max-width: 33%;
   border-radius: 25px !important;
   font-size: xx-large;
