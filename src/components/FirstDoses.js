@@ -34,7 +34,7 @@ const FirstDoses = () => {
       <div id="please-select-sample-header">Please select a medication below.</div>
       <div className="samples-container">
         {renderAllSamples()}
-      </div><br></br><br></br><br></br>
+      </div>
       <ContactFooter/>
 
     </div>

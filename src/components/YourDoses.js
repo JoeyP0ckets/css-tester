@@ -65,7 +65,6 @@ const YourDoses = () => {
         </Row>
         <br></br>
       </div>
-      <br></br>
       <ContactFooter/>
     </div>
   )
