@@ -295,6 +295,22 @@
   background: white;
 }
 
+#theatre {
+  background: rgb(245, 245, 245);
+  background: radial-gradient(circle, rgba(245, 245, 245, 1) 0%, rgba(11, 59, 112, 0.68531162464986) 25%, rgb(4, 0, 53) 85%);
+  animation: fadeBackground 3s;
+  animation-fill-mode: forwards;
+  border: gray;
+  border-style: groove;
+  border-width: 1px;
+  justify-self: center;
+  margin: auto;
+  padding: 25px;
+  margin-bottom: 10px;
+  /* width: 1500px; */
+  height: 500px;
+}
+
 .sample-view-container {
   background: rgb(7, 7, 8);
   background: radial-gradient(circle, rgba(7, 7, 8, 0.63) 0%, rgba(97, 97, 97, 0.7791491596638656) 48%, rgba(9, 9, 9, 0.762) 100%);
@@ -309,7 +325,7 @@
   height: fit-content;
   max-height: 75%;
   /* max-height: 700px; */
-  min-height: 600px;
+  /* min-height: 600px; */
   margin: 25px;
   margin-left: 25%;
   margin-right: 25%;
@@ -319,29 +335,17 @@
   font-size: larger;
   justify-content: center;
   border-radius: 25px;
+  height: 500px;
 }
 
-#theatre {
-  background: rgb(245, 245, 245);
-  background: radial-gradient(circle, rgba(245, 245, 245, 1) 0%, rgba(11, 59, 112, 0.68531162464986) 25%, rgb(4, 0, 53) 85%);
-  animation: fadeBackground 3s;
-  animation-fill-mode: forwards;
-  border: gray;
-  border-style: groove;
-  border-width: 1px;
-  justify-self: center;
-  margin: auto;
-  padding: 25px;
-  margin-bottom: 10px;
-  /* width: 1500px; */
-  /* height: 750px; */
-}
 
 #please_select {
   font-family: 'Courier New', Courier, monospace;
   font-size: x-large;
+  /* padding-top: 300px; */
+  /* margin: 145px; */
   padding-top: 300px;
-  margin: 145px;
+  margin: 15px;
 
   background-image: url("../src/img/first_dose_WHITE_periodic_final2.png");
 
@@ -356,17 +360,18 @@
 }
 
 #sample-view-window {
-  max-height: 700px;
+  height: 440px;
+  /* max-height: 700px; */
   /* margin-bottom: 100px; */
   /* max-height: 75%; */
 }
 
 #selected_sample_image {
   max-width: 50%;
-  max-height: 300px;
+  max-height: 200px;
   margin: 10px;
   padding: 10px;
-  padding-top: 50px;
+  /* padding-top: 50px; */
 }
 
 .sample-info-container {
@@ -378,7 +383,8 @@
   border-radius: 5px;
   padding-left: 5%;
   padding-right: 5%;
-  height: 175px;
+  margin-top: 50px;
+  height: 50px;
   width: 100%;
   overflow: hidden;
 }
