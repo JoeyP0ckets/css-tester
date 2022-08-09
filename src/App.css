@@ -113,7 +113,7 @@
 
 #login-left-col {
   /* Blue radial: */
-  background: radial-gradient(circle, rgb(2, 0, 65) 0%, rgba(11, 59, 112, 0.68531162464986) 25%,rgb(4, 0, 53) 85%);
+  background: radial-gradient(circle, rgb(2, 0, 65) 0%, rgba(11, 59, 112, 0.68531162464986) 25%, rgb(4, 0, 53) 85%);
   animation: fadeBackground 3s;
   animation-fill-mode: forwards;
 }
@@ -178,16 +178,16 @@
 #about-text {
   /* Navy background: */
   /* background: rgb(5, 0, 77); */
-  
-  /* FF7 boxes: */ 
+
+  /* FF7 boxes: */
   background: linear-gradient(315deg, rgba(5, 0, 77, 1) 0%, rgba(4, 0, 53, 1) 59%, rgb(136, 132, 175) 100%);
-  
+
   /* Gray radial: */
   /* background: linear-gradient(315deg, rgba(5, 0, 77, 1) 0%, rgba(4, 0, 53, 1) 59%, rgb(136, 132, 175) 100%); */
 
   /* Blue radial: */
   /* background: radial-gradient(circle, rgb(2, 0, 65) 0%, rgba(11, 59, 112, 0.68531162464986) 25%,rgb(4, 0, 53) 85%); */
-  
+
   color: white;
   font-style: italic;
   text-decoration: solid;
@@ -537,6 +537,8 @@
   float: left;
   font-size: 55px;
   font-weight: 300;
+
+  text-shadow: 1px 1px 3px #61dafb;
 }
 
 #yourdose-explain-firstline,
@@ -589,8 +591,8 @@
   float: right;
   height: 440px;
   /* background-color: #282c34; */
-  background: rgb(143,143,143);
-  background: radial-gradient(circle, rgba(143,143,143,1) 0%, rgba(69,68,68,1) 17%, rgba(0,0,0,1) 85%);
+  background: rgb(143, 143, 143);
+  background: radial-gradient(circle, rgba(143, 143, 143, 1) 0%, rgba(69, 68, 68, 1) 17%, rgba(0, 0, 0, 1) 85%);
   color: white;
   /* margin-bottom: 10px; */
   /* padding: 15%; */
@@ -608,7 +610,7 @@
   overflow-x: hidden;
 }
 
-#please-select-shipping-order{
+#please-select-shipping-order {
   text-align: center;
   padding-top: 50px;
   font-size: x-large;
@@ -624,7 +626,7 @@
   color: teal;
   text-align: left;
   padding-right: 10px;
-  
+
 }
 
 .shipping-label-address-text {
@@ -639,29 +641,71 @@
 
 /* Animation effects: */
 
-.grow-text { animation: grow-shrink 3s ease 2s;}
+.grow-text {
+  /* animation: growShrink 3s ease 2s; */
+}
 
-.header-fade-in { animation: fadeIn 3s; }
+.header-fade-in {
+  animation: fadeIn 3s;
+}
 
-.fade-in-image { animation: fadeIn 2s; }
+.fade-in-image {
+  animation: fadeIn 2s;
+}
 
-.box-fade { animation: boxFade 2s; }
+.box-fade {
+  animation: boxFade 2s;
+}
+
+.aura-pulse {
+  animation: auraPulse 2s ease-in-out 1s 3 normal both;
+}
 
 @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeBackground {
-  from { background-color: black; }
-  to { background-color: radial-gradient(circle, rgb(2, 0, 65) 0%, rgba(11, 59, 112, 0.68531162464986) 25%,rgb(4, 0, 53) 85%); }
+  from {
+    background-color: black;
+  }
+
+  to {
+    background-color: radial-gradient(circle, rgb(2, 0, 65) 0%, rgba(11, 59, 112, 0.68531162464986) 25%, rgb(4, 0, 53) 85%);
+  }
 }
 
 @keyframes boxFade {
-  0% { transform: translateX(-100%) }
-  100% { transform: translateX(0) }
+  0% {
+    transform: translateX(-100%)
+  }
+
+  100% {
+    transform: translateX(0)
+  }
 }
 
-@keyframes grow-shrink {
+@keyframes growShrink {
   50% { transform: scale(1.2); }
+}
+
+@keyframes auraPulse {
+  0% {
+    opacity: 1;
+    text-shadow: 1px 1px 1px #61dafb;
+  }
+  50% {
+    /* opacity: 0.5; */
+    text-shadow: 1px 1px 20px #61dafb;
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 1px 1px 1px #61dafb;
+  }
 }

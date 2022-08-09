@@ -23,7 +23,7 @@ const YourDoses = () => {
     <div className="your-doses-page">
       <div className="yourdose-contract-frame">
         <div className="yourdose-explain-container">
-          <div id="yourdose-explain-header" className="grow-text">
+          <div id="yourdose-explain-header" className="grow-text aura-pulse">
             Check
           </div>
           <div id="yourdose-explain-firstline">
@@ -63,7 +63,7 @@ const YourDoses = () => {
         <Row id style={{ display: "flex", textAlign: "center" }}>
           <Col className="column-shipping" id="shipping-col-left">
             <div className="shipping-explain-container">
-              <div id="shipping-explain-header" className="grow-text">
+              <div id="shipping-explain-header" className="grow-text aura-pulse">
                 Track
               </div>
               <div id="shipping-explain-firstline">
@@ -78,7 +78,7 @@ const YourDoses = () => {
             </div>
           </Col>
           <Col className="column-shipping" id="shipping-col-right">
-            <div id="shipping-text-container" className="fade-in-image">
+            <div id="shipping-text-container" className="aura-pulse">
               {selectedOrder ? <ShippingLabel selectedOrder={selectedOrder} /> : <div id="please-select-shipping-order" className="grow-text">Please Select a Shipping Order</div>}
             </div>
           </Col>
